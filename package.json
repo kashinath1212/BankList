@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "name": "bank-list",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-scope-hoist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashinath1212/BankList.git"
+  },
+  "author": "kashi kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashinath1212/BankList/issues"
+  },
+  "homepage": "https://github.com/kashinath1212/BankList#readme",
+  "description": ""
+}
