@@ -129,12 +129,13 @@ const inputClosePin = document.querySelector('.form__input--pin');
 let currentAccount, timer;
 btnLogin.addEventListener('click', function (e) {
   e.preventDefault();
-  console.log(inputLoginUsername, "Script loaded and DOM is ready.");
   currentAccount = accounts.find(acc => {
     return acc.username === inputLoginUsername.value;
   });
+  console.log(currentAccount, "Script loaded and DOM is ready.");
   //  (currentAccount);
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
+    console.log(currentAccount, "Script loaded and DOM is ready.");
     inputLoginUsername.value = inputLoginPin.value = '';
     inputLoginPin.blur();
     inputLoginUsername.blur();
