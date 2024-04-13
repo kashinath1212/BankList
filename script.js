@@ -130,9 +130,9 @@ let currentAccount, timer;
 btnLogin.addEventListener('click', function (e) {
   e.preventDefault();
   currentAccount = accounts.find(acc => {
+  console.log(acc,inputLoginUsername.value, "Script loaded and DOM is ready.");
     return acc.username === inputLoginUsername.value;
   });
-  console.log(currentAccount, "Script loaded and DOM is ready.");
   //  (currentAccount);
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
     console.log(currentAccount, "Script loaded and DOM is ready.");
