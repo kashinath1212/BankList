@@ -131,6 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
 let currentAccount, timer;
 btnLogin.addEventListener('click', function (e) {
   e.preventDefault();
+  console.log(inputLoginUsername, "Script loaded and DOM is ready.");
   currentAccount = accounts.find(acc => {
     return acc.username === inputLoginUsername.value;
   });
