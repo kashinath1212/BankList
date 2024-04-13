@@ -3,6 +3,8 @@
 /////////////////////////////////////////////////
 // LECTURES
 
+document.addEventListener("DOMContentLoaded", function () {
+
 const currencies = new Map([
   ['USD', 'United States dollar'],
   ['EUR', 'Euro'],
@@ -123,10 +125,6 @@ const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
 /////////////////////////////////////////////////////////////////////
-
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("Script loaded and DOM is ready.");
-});
 
 let currentAccount, timer;
 btnLogin.addEventListener('click', function (e) {
@@ -446,3 +444,4 @@ const calcDisplaySummary = acc => {
     acc.currency
   )}`;
 };
+  });
