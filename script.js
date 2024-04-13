@@ -123,6 +123,11 @@ const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
 /////////////////////////////////////////////////////////////////////
+
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Script loaded and DOM is ready.");
+});
+
 let currentAccount, timer;
 btnLogin.addEventListener('click', function (e) {
   e.preventDefault();
