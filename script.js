@@ -55,6 +55,7 @@ const account1 = {
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
   pin: 1111,
+  username: 'jonas123',
 
   movementsDates: [
     '2021-11-18T21:31:17.178Z',
@@ -75,7 +76,8 @@ const account2 = {
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 2222,
-
+  username: 'Jessica123',
+  
   movementsDates: [
     '2021-11-01T13:15:33.035Z',
     '2021-11-30T09:48:16.867Z',
